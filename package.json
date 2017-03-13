@@ -1,0 +1,39 @@
+{
+  "name": "abc",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "meteor-node-stubs": "~0.2.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-toolbox": "^2.0.0-beta.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-modules-extract-imports": "^1.0.1",
+    "postcss-modules-local-by-default": "^1.1.1",
+    "postcss-modules-scope": "^1.0.2",
+    "postcss-simple-vars": "^3.0.0"
+  },
+  "cssModules": {
+    "postcssPlugins": {
+      "postcss-cssnext": {},
+      "postcss-simple-vars": {},
+      "postcss-modules-local-by-default": {},
+      "postcss-modules-extract-imports": {},
+      "postcss-modules-scope": {}
+    },
+    "extensions": [
+      "scss",
+      "css"
+    ],
+    "ignorePaths": [
+      "node_modules/.*/(examples|docs|test|tests)/",
+      "node_modules/react-toolbox"
+    ]
+  }
+}
